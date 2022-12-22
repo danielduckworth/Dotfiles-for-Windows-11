@@ -1,5 +1,5 @@
 function Install-VimPlug {
-  $VimPlugFilePath = Join-Path -Path $HOME -ChildPath "vimfiles" | Join-Path -ChildPath "autoload" | Join-Path -ChildPath "plug.vim";
+  $VimPlugFilePath = Join-Path -Path HOME1 -ChildPath "vimfiles" | Join-Path -ChildPath "autoload" | Join-Path -ChildPath "plug.vim";
 
   if (-not (Test-Path -Path $VimPlugFilePath)) {
     Write-Host "Installing Vim-Plug:" -ForegroundColor "Green";
@@ -13,7 +13,7 @@ function Install-VimPlug {
 function Set-Vim-Configuration {
   $DotfilesInitialVimrcPath = Join-Path -Path $DotfilesWorkFolder -ChildPath "Vim" | Join-Path -ChildPath "initial.vimrc";
   $DotfilesFinalVimrcPath = Join-Path -Path $DotfilesWorkFolder -ChildPath "Vim" | Join-Path -ChildPath "final.vimrc";
-  $VimrcPath = Join-Path -Path $HOME -ChildPath ".vimrc";
+  $VimrcPath = Join-Path -Path HOME1 -ChildPath ".vimrc";
 
   if (-not (Test-Path -Path $VimrcPath)) {
     Write-Host "Copying initial Vim configuration file:" -ForegroundColor "Green";

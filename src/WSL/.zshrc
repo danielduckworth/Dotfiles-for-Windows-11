@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=HOME1/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="HOME1/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -60,5 +60,5 @@ source "$ZSH/custom/functions/custom-actions.sh"
 stty stop ""
 
 # Volta
-export VOLTA_HOME="$HOME/.volta"
+export VOLTA_HOME="HOME1/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"

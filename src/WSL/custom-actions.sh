@@ -3,10 +3,10 @@
 ################################################################################
 
 ## Edit Zsh configuration
-alias edt="vim $HOME/.zshrc $HOME/.oh-my-zsh/custom/functions/custom-actions.sh"
+alias edt="vim HOME1/.zshrc HOME1/.oh-my-zsh/custom/functions/custom-actions.sh"
 
 ## Refresh Zsh configuration
-alias src="source $HOME/.zshrc"
+alias src="source HOME1/.zshrc"
 
 ################################################################################
 #                              Directories Aliases                             #
@@ -61,10 +61,10 @@ alias ghrlc="git reset --hard HEAD~1"
 ################################################################################
 
 ## Edit init.vim file
-alias editvim="vim $HOME/.vimrc"
+alias editvim="vim HOME1/.vimrc"
 
 ## Refresh Vim configuration
-alias sourcevim="source $HOME/.vimrc"
+alias sourcevim="source HOME1/.vimrc"
 
 ################################################################################
 #                                Docker Aliases                                #
